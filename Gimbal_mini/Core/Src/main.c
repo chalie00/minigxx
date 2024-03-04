@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "memory.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -33,7 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define UART2_BUFFER_SIZE 8
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -56,8 +56,8 @@ UART_HandleTypeDef huart3;
 char msg[] = "Hello STM32\r\n";
 char rec1[] = "Receive1 Main\r\n";
 char rec2[] = "Receive2 Main\r\n";
-uint8_t rx_indx = 0;
-uint8_t Rx_buffer;
+uint8_t uart2_rx_index = 0;
+uint8_t uart2_rx_buff[UART2_BUFFER_SIZE];
 uint8_t msg_r_data[7];
 uint8_t rev[2];
 uint8_t snd[8];
@@ -138,7 +138,7 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-        HAL_UART_Receive_IT(&huart1, &Rx_buffer, 1);
+        HAL_UART_Receive_IT(&huart2, uart2_rx_buff, 1);
     }
     /* USER CODE END 3 */
 }
@@ -466,20 +466,17 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
-    if(huart->Instance == USART1){
-        msg_r_data[rx_indx] = Rx_buffer;
-        printf("rx is %u\r\n", &msg_r_data[rx_indx]);
-        printf("rx is %u\r\n", &Rx_buffer);
-        if(rx_indx == 7) {
-            for (int i = 0; i < 8; i++) {
-                HAL_UART_Transmit_IT(&huart1, &msg_r_data[i], 8);
-                rx_indx = 0;
+    if(huart->Instance == USART2){
+        uart2_rx_buff[uart2_rx_index++] = USART2->DR;
+        if(uart2_rx_index==UART2_BUFFER_SIZE) {
+            if(uart2_rx_buff[0] == 'a' && uart2_rx_buff[1] == 'b') {
+                HAL_UART_Transmit(&huart4, uart2_rx_buff, UART2_BUFFER_SIZE, 1000);
             }
-        } else {
-            rx_indx++;
+            uart2_rx_index = 0;
+            memset(uart2_rx_buff, 0, UART2_BUFFER_SIZE);
         }
     }
-    HAL_UART_Receive_IT(&huart1, &Rx_buffer, 1);
+    HAL_UART_Receive_IT(&huart2, uart2_rx_buff, 1);
 }
 /* USER CODE END 4 */
 

@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Gimbal_mini.exe"
-		},
-		{
-			"path" : "Gimbal_mini.pdb"
+			"path" : "Gimbal_mini"
 		}
 	],
 	"backtrace" : 1,
@@ -381,238 +378,238 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Core/Inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Core/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Core/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Core_A/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Core_A/Include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/basic_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/basic_math_tests"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/complex_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/complex_math_tests"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/controller_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/controller_tests"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/fast_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/fast_math_tests"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/filtering_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/filtering_tests"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/intrinsics_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/intrinsics_tests"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/matrix_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/matrix_tests"
 				},
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/statistics_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/statistics_tests"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/support_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/support_tests"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/templates"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/templates"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/transform_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/transform_tests"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/arr_desc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/arr_desc"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/opt_arg"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/opt_arg"
 				},
 				{
 					"backtrace" : 21,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/util"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/util"
 				},
 				{
 					"backtrace" : 22,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc"
 				},
 				{
 					"backtrace" : 23,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_convolution_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_convolution_example"
 				},
 				{
 					"backtrace" : 24,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_fir_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_fir_example"
 				},
 				{
 					"backtrace" : 25,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_graphic_equalizer_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_graphic_equalizer_example"
 				},
 				{
 					"backtrace" : 26,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_linear_interp_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_linear_interp_example"
 				},
 				{
 					"backtrace" : 27,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example"
 				},
 				{
 					"backtrace" : 28,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_signal_converge_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_signal_converge_example"
 				},
 				{
 					"backtrace" : 29,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Include"
 				},
 				{
 					"backtrace" : 30,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 31,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10"
 				},
 				{
 					"backtrace" : 32,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE"
 				},
 				{
 					"backtrace" : 33,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 34,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 35,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 36,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 37,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler"
 				},
 				{
 					"backtrace" : 38,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru"
 				},
 				{
 					"backtrace" : 39,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE"
 				},
 				{
 					"backtrace" : 40,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 41,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 42,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 43,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 44,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler"
 				},
 				{
 					"backtrace" : 45,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Include"
 				},
 				{
 					"backtrace" : 46,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test"
 				},
 				{
 					"backtrace" : 47,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/Ref_Implementations"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/Ref_Implementations"
 				},
 				{
 					"backtrace" : 48,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE"
 				},
 				{
 					"backtrace" : 49,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 50,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 51,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 52,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 53,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS"
 				},
 				{
 					"backtrace" : 54,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS/Template"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS/Template"
 				},
 				{
 					"backtrace" : 55,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS2/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS2/Include"
 				},
 				{
 					"backtrace" : 56,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS2/Template"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS2/Template"
 				},
 				{
 					"backtrace" : 57,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 58,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "C",
@@ -1181,238 +1178,238 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Core/Inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Core/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Core/Include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Core_A/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Core_A/Include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/basic_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/basic_math_tests"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/complex_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/complex_math_tests"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/controller_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/controller_tests"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/fast_math_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/fast_math_tests"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/filtering_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/filtering_tests"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/intrinsics_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/intrinsics_tests"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/matrix_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/matrix_tests"
 				},
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/statistics_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/statistics_tests"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/support_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/support_tests"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/templates"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/templates"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/transform_tests"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc/transform_tests"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/arr_desc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/arr_desc"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/opt_arg"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/opt_arg"
 				},
 				{
 					"backtrace" : 21,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/util"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc/util"
 				},
 				{
 					"backtrace" : 22,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc"
 				},
 				{
 					"backtrace" : 23,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_convolution_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_convolution_example"
 				},
 				{
 					"backtrace" : 24,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_fir_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_fir_example"
 				},
 				{
 					"backtrace" : 25,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_graphic_equalizer_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_graphic_equalizer_example"
 				},
 				{
 					"backtrace" : 26,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_linear_interp_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_linear_interp_example"
 				},
 				{
 					"backtrace" : 27,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_matrix_example"
 				},
 				{
 					"backtrace" : 28,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_signal_converge_example"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Examples/ARM/arm_signal_converge_example"
 				},
 				{
 					"backtrace" : 29,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/DSP/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/DSP/Include"
 				},
 				{
 					"backtrace" : 30,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 31,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10"
 				},
 				{
 					"backtrace" : 32,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE"
 				},
 				{
 					"backtrace" : 33,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 34,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 35,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 36,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 37,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler"
 				},
 				{
 					"backtrace" : 38,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru"
 				},
 				{
 					"backtrace" : 39,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE"
 				},
 				{
 					"backtrace" : 40,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 41,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 42,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 43,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 44,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler"
 				},
 				{
 					"backtrace" : 45,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/Include"
 				},
 				{
 					"backtrace" : 46,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test"
 				},
 				{
 					"backtrace" : 47,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/Ref_Implementations"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/Ref_Implementations"
 				},
 				{
 					"backtrace" : 48,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE"
 				},
 				{
 					"backtrace" : 49,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM0"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM0"
 				},
 				{
 					"backtrace" : 50,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM3"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM3"
 				},
 				{
 					"backtrace" : 51,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM4_FP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM4_FP"
 				},
 				{
 					"backtrace" : 52,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM7_SP"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/NN/NN_Lib_Tests/nn_test/RTE/_ARMCM7_SP"
 				},
 				{
 					"backtrace" : 53,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS"
 				},
 				{
 					"backtrace" : 54,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS/Template"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS/Template"
 				},
 				{
 					"backtrace" : 55,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS2/Include"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS2/Include"
 				},
 				{
 					"backtrace" : 56,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/CMSIS/RTOS2/Template"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/CMSIS/RTOS2/Template"
 				},
 				{
 					"backtrace" : 57,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 58,
-					"path" : "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/chalie/Desktop/STM/minigxx/Gimbal_mini/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "CXX",
@@ -1444,16 +1441,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Gimbal_mini",
-	"nameOnDisk" : "Gimbal_mini.exe",
+	"nameOnDisk" : "Gimbal_mini",
 	"paths" : 
 	{
 		"build" : ".",
