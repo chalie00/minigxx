@@ -473,6 +473,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
                 HAL_UART_Transmit(&huart4, uart2_rx_buff, UART2_BUFFER_SIZE, 1000);
             }
             uart2_rx_index = 0;
+            //UART2 rx Bugger Clear
             memset(uart2_rx_buff, 0, UART2_BUFFER_SIZE);
         }
     }
