@@ -17,12 +17,11 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <stdint.h>
-#include "stdio.h"
 #include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stdio.h"
 
 /* USER CODE END Includes */
 
@@ -33,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define UART2_BUFFER_SIZE 9
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -53,14 +52,8 @@ UART_HandleTypeDef huart2;
 UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
-char msg[] = "Hello STM32\r\n";
-char rec1[] = "Receive1 Main\r\n";
-char rec2[] = "Receive2 Main\r\n";
-uint8_t rx_indx = 0;
-uint8_t Rx_buffer;
-uint8_t msg_r_data[7];
-uint8_t rev[2];
-uint8_t snd[8];
+uint8_t uart2_rx_buffer[UART2_BUFFER_SIZE];
+int uart2_rx_index = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,7 +82,7 @@ static void MX_USART2_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 PUTCHAR_PROTOTYPE {
-    HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
+    HAL_UART_Transmit(&huart2, (uint8_t * ) & ch, 1, 0xFFFF);
     return ch;
 }
 /* USER CODE END 0 */
@@ -129,16 +122,19 @@ int main(void) {
     MX_USART3_UART_Init();
     MX_USART2_UART_Init();
     /* USER CODE BEGIN 2 */
+    HAL_GPIO_WritePin(THM_CAM_EN_GPIO_Port, THM_CAM_EN_Pin, 1);
 
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
+        HAL_UART_Receive_IT(&huart2, (uint8_t *) uart2_rx_buffer, 1);
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-        HAL_UART_Receive_IT(&huart1, &Rx_buffer, 1);
+
+
     }
     /* USER CODE END 3 */
 }
@@ -433,25 +429,23 @@ static void MX_GPIO_Init(void) {
     __HAL_RCC_GPIOB_CLK_ENABLE();
 
     /*Configure GPIO pin Output Level */
-    HAL_GPIO_WritePin(TEST_EN_GPIO_Port, TEST_EN_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOC, THM_CAM_EN_Pin | COL_CAM_EN_Pin | LRF_EN_Pin | TEST_EN_Pin, GPIO_PIN_RESET);
 
     /*Configure GPIO pin Output Level */
     HAL_GPIO_WritePin(GPIOB, DE1_Pin | DE5_Pin, GPIO_PIN_RESET);
 
-    /*Configure GPIO pins : HEAT_EN_Pin FAN_EN_Pin THM_CAM_EN_Pin COL_CAM_EN_Pin
-                             LRF_EN_Pin */
-    GPIO_InitStruct.Pin = HEAT_EN_Pin | FAN_EN_Pin | THM_CAM_EN_Pin | COL_CAM_EN_Pin
-                          | LRF_EN_Pin;
+    /*Configure GPIO pins : HEAT_EN_Pin FAN_EN_Pin */
+    GPIO_InitStruct.Pin = HEAT_EN_Pin | FAN_EN_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-    /*Configure GPIO pin : TEST_EN_Pin */
-    GPIO_InitStruct.Pin = TEST_EN_Pin;
+    /*Configure GPIO pins : THM_CAM_EN_Pin COL_CAM_EN_Pin LRF_EN_Pin TEST_EN_Pin */
+    GPIO_InitStruct.Pin = THM_CAM_EN_Pin | COL_CAM_EN_Pin | LRF_EN_Pin | TEST_EN_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    HAL_GPIO_Init(TEST_EN_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
     /*Configure GPIO pins : DE1_Pin DE5_Pin */
     GPIO_InitStruct.Pin = DE1_Pin | DE5_Pin;
@@ -466,20 +460,36 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
-    if(huart->Instance == USART1){
-        msg_r_data[rx_indx] = Rx_buffer;
-        printf("rx is %u\r\n", &msg_r_data[rx_indx]);
-        printf("rx is %u\r\n", &Rx_buffer);
-        if(rx_indx == 7) {
-            for (int i = 0; i < 8; i++) {
-                HAL_UART_Transmit_IT(&huart1, &msg_r_data[i], 8);
-                rx_indx = 0;
+    uint8_t checksum = 0x00;
+    uint8_t i;
+    if (huart->Instance == USART2) {
+        uart2_rx_buffer[uart2_rx_index] = USART2->DR;
+        if (uart2_rx_index + 1 == UART2_BUFFER_SIZE) {
+            if (uart2_rx_buffer[0] == 0xAA && uart2_rx_buffer[1] == 0x05) {
+                for (i = 0; i < 6; i++) {
+                    checksum += uart2_rx_buffer[i];
+                }
+                if (checksum == uart2_rx_buffer[6]) {
+                    HAL_UART_Transmit(&huart4, (uint8_t *) uart2_rx_buffer, 9, 1);
+                    uart2_rx_index = 0;
+                } else {
+                    for (i = 0; i < 9; i++) {
+                        uart2_rx_buffer[i] = 0x00;
+                        uart2_rx_index = 0;
+                    }
+                }
+            } else {
+                for (i = 0; i < 9; i++) {
+                    uart2_rx_buffer[i] = 0x00;
+                    uart2_rx_index = 0;
+                }
             }
         } else {
-            rx_indx++;
+            uart2_rx_index++;
         }
+//        HAL_UART_Transmit(&huart4, (uint8_t *) uart2_rx_buffer, 1, 8);
     }
-    HAL_UART_Receive_IT(&huart1, &Rx_buffer, 1);
+    HAL_UART_Receive_IT(&huart2, (uint8_t * ) uart2_rx_buffer, 1);
 }
 /* USER CODE END 4 */
 
