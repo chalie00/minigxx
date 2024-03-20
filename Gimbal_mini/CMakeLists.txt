@@ -860,5 +860,4 @@ add_executable(Gimbal_mini
         Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c
         Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c
         Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
-        Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c
-)
+        Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c)
