@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,51 +21,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0482eb-1360-41be-970f-77b25f57bf4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini.dep" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini.ewp" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini.ewp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/List/Gimbal_mini.map" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/List/Gimbal_mini.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.browse" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.browse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.linf" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.linf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbw" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/main.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/main.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/main.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/startup_stm32f103xe.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/startup_stm32f103xe.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/stm32f1xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/system_stm32f1xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Obj/system_stm32f1xx.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/settings/Gimbal_mini.dbgdt" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/settings/Gimbal_mini.dbgdt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/settings/Gimbal_mini.dnx" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/settings/Gimbal_mini.dnx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/settings/MiniGImbal_WS.wsdt" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/settings/MiniGImbal_WS.wsdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-06e4023ed45396a86113.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-23T06-01-46-0451.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-19T07-42-49-0516.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,44 +54,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3.4" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dtjEn7LtrEQJYesfyhjnnHDrt6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "USART",
-    "last_opened_file_path": "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;USART&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/Gimbal_mini&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Gimbal_mini" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Gimbal_mini" TARGET_NAME="Gimbal_mini" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Gimbal_mini" RUN_TARGET_NAME="Gimbal_mini">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -131,7 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710834160764</updated>
-      <workItem from="1710834162592" duration="2887000" />
+      <workItem from="1710834162592" duration="13211000" />
+      <workItem from="1710915551404" duration="703000" />
     </task>
     <servers />
   </component>
