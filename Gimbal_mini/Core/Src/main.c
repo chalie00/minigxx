@@ -129,7 +129,7 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
-        HAL_UART_Receive_IT(&huart2, (uint8_t *) uart2_rx_buffer, 1);
+        HAL_UART_Receive_IT(&huart2, (uint8_t *)uart2_rx_buffer, 1);
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -464,32 +464,36 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     uint8_t i;
     if (huart->Instance == USART2) {
         uart2_rx_buffer[uart2_rx_index] = USART2->DR;
-        if (uart2_rx_index + 1 == UART2_BUFFER_SIZE) {
-            if (uart2_rx_buffer[0] == 0xAA && uart2_rx_buffer[1] == 0x05) {
-                for (i = 0; i < 6; i++) {
-                    checksum += uart2_rx_buffer[i];
-                }
-                if (checksum == uart2_rx_buffer[6]) {
-                    HAL_UART_Transmit(&huart4, (uint8_t *) uart2_rx_buffer, 9, 1);
-                    uart2_rx_index = 0;
+        if (uart2_rx_buffer[0] == 0xAA) {
+            if (uart2_rx_index + 1 >= UART2_BUFFER_SIZE) {
+                if (uart2_rx_buffer[0] == 0xAA && uart2_rx_buffer[1] == 0x05) {
+                    for (i = 0; i < 6; i++) {
+                        checksum += uart2_rx_buffer[i];
+                    }
+                    if (checksum == uart2_rx_buffer[6]) {
+                        HAL_UART_Transmit(&huart4, (uint8_t *) uart2_rx_buffer, 9, 1);
+                        uart2_rx_index = 0;
+                    } else {
+                        for (i = 0; i < 10; i++) {
+                            uart2_rx_buffer[i] = 0x00;
+                            uart2_rx_index = 0;
+                        }
+                    }
                 } else {
-                    for (i = 0; i < 9; i++) {
+                    for (i = 0; i < 10; i++) {
                         uart2_rx_buffer[i] = 0x00;
                         uart2_rx_index = 0;
                     }
                 }
-            } else {
-                for (i = 0; i < 9; i++) {
-                    uart2_rx_buffer[i] = 0x00;
-                    uart2_rx_index = 0;
-                }
             }
         } else {
-            uart2_rx_index++;
+            //TODO: if not IR CMD, check whether it's other device CMD
+            uart2_rx_buffer[uart2_rx_index] = 0x00;
+            uart2_rx_index = 0;
         }
-//        HAL_UART_Transmit(&huart4, (uint8_t *) uart2_rx_buffer, 1, 8);
     }
-    HAL_UART_Receive_IT(&huart2, (uint8_t * ) uart2_rx_buffer, 1);
+    uart2_rx_index++;
+    HAL_UART_Receive_IT(&huart2, (uint8_t *)uart2_rx_buffer, 1);
 }
 /* USER CODE END 4 */
 
@@ -514,9 +518,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 }
 
 /**
-  * @brief  This function is executed in case of error occurrence.
-  * @retval None
-  */
+* @brief  This function is executed in case of error occurrence.
+* @retval None
+*/
 void Error_Handler(void) {
     /* USER CODE BEGIN Error_Handler_Debug */
     /* User can add his own implementation to report the HAL error return state */
