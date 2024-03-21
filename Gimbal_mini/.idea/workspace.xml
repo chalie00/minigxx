@@ -21,9 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0482eb-1360-41be-970f-77b25f57bf4c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini.dep" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" beforeDir="false" afterPath="$PROJECT_DIR$/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" afterDir="false" />

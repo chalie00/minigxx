@@ -462,19 +462,23 @@ static void MX_GPIO_Init(void) {
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == USART2) {
-        //If data is 0xAA, store a data to buffer and check a second data whether it's 0x55
-        //If not 0xAA, clear the buffer and set the index 0
+        //If data is 0xAA, store a data to buffer and check a second data whether it's 0x05
+        //If second data is not 0x05, clear the buffer, if 0x05, store data in index 1
+        //If not 0xAA, set the index 0
         uint8_t receivedData = huart->Instance->DR;
         if (!receptionStart) {
             if (receivedData == 0xAA) {
-                receptionStart = 1;
                 uart2_rx_buffer[uart2_rx_index] = receivedData;
+                uart2_rx_index++;
+                HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
+            } else if (receivedData == 0x05 && uart2_rx_buffer[0] == 0xAA) {
+                uart2_rx_buffer[uart2_rx_index] = receivedData;
+                receptionStart = 1;
             } else {
                 uart2_rx_index = 0;
             }
         } else {
-            //If second data is not 0x05, clear the buffer, if 0x05, store data in index 1
-            // and then store 7 more bytes
+            //if first buffer is 0xAA and second is 0x05, store 7 more bytes
             if (uart2_rx_index < UART2_BUFFER_SIZE) {
                 uart2_rx_buffer[uart2_rx_index] = receivedData;
 
