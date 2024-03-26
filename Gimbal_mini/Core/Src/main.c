@@ -22,6 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
+#include "Define.h"
+#include "main_function.h"
 
 /* USER CODE END Includes */
 
@@ -32,12 +34,14 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define UART2_BUFFER_SIZE 9
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+u8 uart2_rx_buffer[UART2_BUFFER_SIZE];
+int uart2_rx_index = 0;
+int receptionStart = 0;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -52,9 +56,7 @@ UART_HandleTypeDef huart2;
 UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
-uint8_t uart2_rx_buffer[UART2_BUFFER_SIZE];
-int uart2_rx_index = 0;
-int receptionStart = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -77,6 +79,7 @@ static void MX_USART3_UART_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 # define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+
 
 /* USER CODE END PFP */
 
@@ -124,6 +127,7 @@ int main(void) {
     MX_USART2_UART_Init();
     /* USER CODE BEGIN 2 */
     HAL_GPIO_WritePin(THM_CAM_EN_GPIO_Port, THM_CAM_EN_Pin, 1);
+    HAL_GPIO_WritePin(COL_CAM_EN_GPIO_Port, COL_CAM_EN_Pin, 1);
 
     /* USER CODE END 2 */
 
@@ -131,6 +135,7 @@ int main(void) {
     /* USER CODE BEGIN WHILE */
     while (1) {
         HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
+
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -462,38 +467,9 @@ static void MX_GPIO_Init(void) {
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == USART2) {
-        //If data is 0xAA, store a data to buffer and check a second data whether it's 0x05
-        //If second data is not 0x05, clear the buffer, if 0x05, store data in index 1
-        //If not 0xAA, set the index 0
-        uint8_t receivedData = huart->Instance->DR;
-        if (!receptionStart) {
-            if (receivedData == 0xAA) {
-                uart2_rx_buffer[uart2_rx_index] = receivedData;
-                uart2_rx_index++;
-                HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
-            } else if (receivedData == 0x05 && uart2_rx_buffer[0] == 0xAA) {
-                uart2_rx_buffer[uart2_rx_index] = receivedData;
-                receptionStart = 1;
-            } else {
-                uart2_rx_index = 0;
-            }
-        } else {
-            //if first buffer is 0xAA and second is 0x05, store 7 more bytes
-            if (uart2_rx_index < UART2_BUFFER_SIZE) {
-                uart2_rx_buffer[uart2_rx_index] = receivedData;
-
-                //If receive 9 byte, send to uart4(IR) and clear the buffer
-                if (uart2_rx_index == UART2_BUFFER_SIZE - 1) {
-                    HAL_UART_Transmit_IT(&huart4, uart2_rx_buffer, UART2_BUFFER_SIZE + 1);
-                    receptionStart = 0;
-                    uart2_rx_index = 0;
-                }
-            }
-        }
-        if (receptionStart) {
-            uart2_rx_index++;
-            HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
-        }
+        u8 receivedData = huart->Instance->DR;
+        check_byte_cmd(0xAA, 0x05, receivedData,
+                       &huart2, &huart4);
     }
 }
 /* USER CODE END 4 */
@@ -519,9 +495,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 }
 
 /**
-* @brief  This function is executed in case of error occurrence.
-* @retval None
-*/
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
 void Error_Handler(void) {
     /* USER CODE BEGIN Error_Handler_Debug */
     /* User can add his own implementation to report the HAL error return state */
