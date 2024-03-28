@@ -1,0 +1,3 @@
+C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/cmake-build-debug/CMakeFiles/01_MiniGimbal.dir
+C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
