@@ -1,0 +1,56 @@
+[33mcommit 2d8ac65c9c5cfd0818790f3a8d9cacc00bf11e0c[m[33m ([m[1;36mHEAD -> [m[1;32mUSART[m[33m, [m[1;31morigin/USART[m[33m)[m
+Author: chalie <formathead79@gmail.com>
+Date:   Thu Mar 21 17:16:35 2024 +0900
+
+    2024.03.21
+    1) check whether first data is 0xAA, if it is correct check a second byte whether 0x05
+    2) once 1) is satisfied, store 7 more bytes to buffer
+    3) if buffer is 9 byte, send a buffer to uart4(IR)
+    4) next step is that check a received 9 bytes as checksum
+
+[33mcommit cf45a7d82dca9cf0e7913dd394c0e872c933c1b3[m
+Author: chalie <formathead79@gmail.com>
+Date:   Thu Mar 21 15:41:10 2024 +0900
+
+    2024.03.21
+    1) if received data is 0xAA, store to first index of buffer
+    2) if 9 bytes was stored, send to uart4(IR)
+    3) next step is that if second byte is 0x05 store a data but index is 0
+
+[33mcommit 919211e6780d1260b13a42fe6ee1a430cf129f8b[m
+Author: chalie <formathead79@gmail.com>
+Date:   Wed Mar 20 17:11:47 2024 +0900
+
+    2024.03.20
+     Error is modified
+
+[33mcommit 95137e366acd3a835f5201d2b7cc39ef0f391aa2[m
+Author: chalie <formathead79@gmail.com>
+Date:   Wed Mar 20 15:34:11 2024 +0900
+
+    Revert "20240320"
+    
+    This reverts commit fd4cfd99251c5248fc92871facd1954bc764d88c.
+
+[33mcommit fd4cfd99251c5248fc92871facd1954bc764d88c[m
+Author: chalie <formathead79@gmail.com>
+Date:   Wed Mar 20 15:32:25 2024 +0900
+
+    20240320
+    Compile Error in AIR
+
+[33mcommit 872b91fcd2ecba651ad1cecaa4dbf52075ceae10[m
+Author: chalie <formathead79@gmail.com>
+Date:   Tue Mar 19 18:30:53 2024 +0900
+
+    2024.03.19
+    1) modify the receive function to receive in 1 byte increments
+    2) applied uart2 rx buffer parser
+    3) check a checksum from uart2 rx data
+
+[33mcommit 3fb3b210f7c9ea70d9e6057e1c2f2190bdb52f05[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: chalie <formathead79@gmail.com>
+Date:   Tue Feb 27 13:38:08 2024 +0900
+
+    1. CubeMx Init
+    2. Uart 1 Test Code

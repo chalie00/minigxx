@@ -42,6 +42,8 @@
 u8 uart2_rx_buffer[UART2_BUFFER_SIZE];
 int uart2_rx_index = 0;
 int receptionStart = 0;
+
+u8 uart2_eo_rx_buffer[UART2_EO_BUFFER_SIZE];
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -309,7 +311,7 @@ static void MX_UART5_Init(void) {
 
     /* USER CODE END UART5_Init 1 */
     huart5.Instance = UART5;
-    huart5.Init.BaudRate = 115200;
+    huart5.Init.BaudRate = 9600;
     huart5.Init.WordLength = UART_WORDLENGTH_8B;
     huart5.Init.StopBits = UART_STOPBITS_1;
     huart5.Init.Parity = UART_PARITY_NONE;
@@ -468,9 +470,19 @@ static void MX_GPIO_Init(void) {
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == USART2) {
         u8 receivedData = huart->Instance->DR;
-        check_byte_cmd(0xAA, 0x05, receivedData,
-                       &huart2, &huart4);
+        check_byte_cmd(receivedData, &huart2, &huart5, &huart4);
+
+
+
+//        uart2_rx_buffer[uart2_rx_index] = huart->Instance->DR;
+//        if (uart2_rx_index == UART2_BUFFER_SIZE - 1) {
+//            HAL_UART_Transmit_IT(&huart5, uart2_rx_buffer, UART2_BUFFER_SIZE);
+//            HAL_UART_Transmit_IT(&huart2, uart2_rx_buffer, UART2_BUFFER_SIZE);
+//            uart2_rx_index = 0;
+//        }
     }
+//    uart2_rx_index++;
+//    HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
 }
 /* USER CODE END 4 */
 
