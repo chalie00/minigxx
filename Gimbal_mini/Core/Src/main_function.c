@@ -112,7 +112,7 @@ int cal_chk_sum(u8 *receivedData, int start_idx, int chk_idx) {
     if (buf_sum == receivedData[chk_idx]) {
         return true;
     } else {
-        return false;
+        return 0;
     }
 }
 
