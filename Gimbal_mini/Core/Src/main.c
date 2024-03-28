@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
 #include "stdio.h"
 #include "Define.h"
 #include "main_function.h"
@@ -34,7 +35,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define UART2_BUFFER_SIZE 8
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -141,8 +142,6 @@ int main(void) {
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
-
-
     }
     /* USER CODE END 3 */
 }
@@ -483,6 +482,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     }
 //    uart2_rx_index++;
 //    HAL_UART_Receive_IT(&huart2, &uart2_rx_buffer[uart2_rx_index], 1);
+
 }
 /* USER CODE END 4 */
 
