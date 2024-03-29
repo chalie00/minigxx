@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="CMakeWorkspace">
     <contentRoot DIR="$PROJECT_DIR$/Gimbal_mini" />
+=======
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Gimbal_mini">
+    <contentRoot DIR="$PROJECT_DIR$" />
+>>>>>>> 4e284af5c717920de517e7195176cd51ff8dd719
   </component>
 </project>
