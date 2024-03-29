@@ -35,7 +35,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define UART2_BUFFER_SIZE 8
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
