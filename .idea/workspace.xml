@@ -18,9 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22534805-1fcf-4070-83c1-34c6d348f909" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/Core/Src/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="22534805-1fcf-4070-83c1-34c6d348f909" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
