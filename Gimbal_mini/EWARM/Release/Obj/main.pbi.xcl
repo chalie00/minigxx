@@ -1,33 +1,33 @@
-"C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Core\Src\main.c"
+"C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Core\Src\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Core\Src
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Core\Src
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM/../Core/Inc
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM/../Core/Inc
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM/../Drivers/CMSIS/Include
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM/../Drivers/CMSIS/Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Core\Inc
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Core\Inc
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Drivers\STM32F1xx_HAL_Driver\Inc
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\Drivers\CMSIS\Include
+C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\Drivers\CMSIS\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

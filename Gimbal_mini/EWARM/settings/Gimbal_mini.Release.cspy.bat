@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.general.xcl" --backend -f "C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.general.xcl" --backend -f "C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\SC Team\Desktop\00.Local FW\01.MiniGimbal\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\SC Team\Desktop\minigxx-USART\minigxx-USART\Gimbal_mini\EWARM\settings\Gimbal_mini.Release.driver.xcl" 
 
 @echo off 
 :end
