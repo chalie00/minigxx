@@ -19,284 +19,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22534805-1fcf-4070-83c1-34c6d348f909" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/4K_ApprovalSheet_MC-S185U_v0.06_220607.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/Junction_board_layout.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/MGB MAIN CONTROL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/MGB_BLOCK.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/Xcore MicroⅢ Lite Series Command Protocols_1.0.2_20230309.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Doc/en.DM00105879.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/Core/Inc/Define.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/Core/Inc/main_function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/Core/Src/main_function.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.ewt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main_function.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main_function.pbi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Exe/Gimbal_mini.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Exe/Gimbal_mini.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Exe/Gimbal_mini.sim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/List/Gimbal_mini.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main_function.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main_function.pbi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main_function.pbi.xcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/startup_stm32f103xe.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_cortex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_dma.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_exti.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_i2c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_msp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_pwr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_timebase_tim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_uart.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_it.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/system_stm32f1xx.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Release.cspy.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Release.cspy.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Release.driver.xcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Release.general.xcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Project.wsdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a7dd1f14f35c087d736c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-86291aee6e70785a74b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-29T01-54-38-0368.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeCache 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/includes_C.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/includes_CXX.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/linkLibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Gimbal_mini.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/Gimbal_mini.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-083085b7125f19cc1dba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-01_MiniGimbal-Debug-e0759ed287aa065eb3d4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-f1b2b3b9642b509dfa7c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tatus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/trace.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/.metadata/version.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.dep" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.ewd" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.ewd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.ewp" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini.ewp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Exe/Gimbal_mini.sim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/List/Gimbal_mini.map" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/List/Gimbal_mini.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.browse" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.browse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbd.linf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbw" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/Gimbal_mini.pbw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main_function.pbi.xcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main_function.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/main_function.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/startup_stm32f103xe.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/startup_stm32f103xe.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_adc_ex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_cortex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_dma.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_exti.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_flash_ex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_gpio_ex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_i2c.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_msp.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_pwr.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_rcc_ex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_tim_ex.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_timebase_tim.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_hal_uart.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_it.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/stm32f1xx_it.pbi.xcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/system_stm32f1xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/system_stm32f1xx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/system_stm32f1xx.pbi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Gimbal_mini/Obj/system_stm32f1xx.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/MiniGImbal_WS.eww" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Project.eww" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd.browse" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd.browse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd.linf" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbd.linf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbw" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/Gimbal_mini.pbw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main.pbi.xcl" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/main.pbi.xcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc_ex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc_ex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_adc_ex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_cortex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_cortex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_cortex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_dma.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_dma.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_dma.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_exti.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_exti.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_exti.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash_ex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash_ex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_flash_ex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio_ex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio_ex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_gpio_ex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_i2c.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_i2c.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_i2c.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_msp.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_msp.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_msp.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_pwr.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_pwr.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_pwr.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc_ex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc_ex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_rcc_ex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim_ex.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim_ex.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_tim_ex.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_timebase_tim.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_timebase_tim.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_timebase_tim.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_uart.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_uart.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_hal_uart.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_it.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_it.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/stm32f1xx_it.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/system_stm32f1xx.pbi" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/system_stm32f1xx.pbi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/Release/Obj/system_stm32f1xx.pbi.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Gimbal_mini.cspy.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Gimbal_mini.cspy.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Gimbal_mini.driver.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.Gimbal_mini.general.xcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.crun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.dbgdt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.dbgdt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.dnx" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/Gimbal_mini.dnx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/MiniGImbal_WS.wsdt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/EWARM/settings/MiniGImbal_WS.wsdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/startup_stm32f103xe.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/stm32f103xe_flash.icf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/EWARM/stm32f103xe_sram.icf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/Gimbal_mini.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/Gimbal_mini.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/cache-v2-890f8784c6134f3220c3.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c4719cd38a023a9dda0e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-06e4023ed45396a86113.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c7983065e8d1ffd07802.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-981ce2dd7be1b28ff80f.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-185eb2e50932e64cb7f5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-23T06-01-46-0451.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T08-10-30-0676.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/target-Gimbal_mini-Debug-7749880c91a39c365a6d.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/.cmake/api/v1/reply/target-Gimbal_mini-Debug-09b925092bf4d7e71fce.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gimbal_mini/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Gimbal_mini/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +99,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/SC Team/Desktop/00.Local FW/01.MiniGimbal/CMakeLists.txt",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
